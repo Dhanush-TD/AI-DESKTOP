@@ -1,0 +1,20 @@
+{
+    "connect earbuds": [
+        {
+            "action": "Bluetooth & devices"
+        },
+        {
+            "action": "Add device"
+        }
+    ],
+    "pair earbuds": [
+        {
+            "action": "Bluetooth & devices",
+            "next_state": "Bluetooth & devices"
+        },
+        {
+            "action": "Add device",
+            "next_state": "Add a device"
+        }
+    ]
+}

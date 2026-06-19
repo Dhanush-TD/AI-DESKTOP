@@ -133,3 +133,41 @@ pip-wheel-metadata/
 # =========================
 
 .coverage.*
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Generated project files
+project_tree.txt
+
+# Test outputs
+output/
+screenshots/
+debug/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# SQLite
+*.db
+*.sqlite3
+
+# Environment
+.env
+.env.*
+
+# Coverage
+.coverage
+htmlcov/
+
+# Pytest
+.pytest_cache/
